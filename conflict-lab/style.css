@@ -1,0 +1,14 @@
+:root {
+  --bg: #F4F6F5;
+  --ink: #1B2420;
+  --sub: #5F6B66;
+  --primary: #0F7B6C;
+}
+body { margin: 0; background: var(--bg); color: var(--ink);
+       font-family: system-ui, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
+.hero { max-width: 640px; margin: 0 auto; padding: 64px 16px; }
+.eyebrow { color: var(--sub); font-size: 14px; margin: 0; }
+h1 { font-size: 36px; margin: 8px 0 12px; }
+.lead { color: var(--sub); line-height: 1.7; margin: 0 0 24px; }
+.btn { display: inline-block; background: var(--primary); color: #fff; padding: 12px 20px;
+       border-radius: 10px; text-decoration: none; font-weight: 600; }
